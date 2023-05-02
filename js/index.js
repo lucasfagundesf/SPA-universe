@@ -13,9 +13,9 @@ bgUniverse.addEventListener("click", () => backgrounds.backgroundUniverse())
 bgExplore.addEventListener("click", () => backgrounds.backgroundExplo())
 
 const router = new Router()
-router.add('/', "/pages/home.html")
-router.add("/universo", "/pages/universo.html")
-router.add("/exploracao", "/pages/exploracao.html")
+router.add('/', "../pages/home.html")
+router.add("/universo", "../pages/universo.html")
+router.add("/exploracao", "../pages/exploracao.html")
 
 
 router.handle()

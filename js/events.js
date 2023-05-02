@@ -20,6 +20,6 @@ export function Backgrounds({bgHome, bgUniverse, bgExplore}) {
     return {
         backgroundHome,
         backgroundUniverse,
-        backgroundExplo 
+        backgroundExplo,
     }
 }
