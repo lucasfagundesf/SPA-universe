@@ -5,11 +5,11 @@ export class Router {
     add(routeName, page){
         this.routes[routeName] = page
     }
-    route(event) {
+    route(href,event) {
         event = event || window.event
         event.preventDefault()
 
-        window.history.pushState({}, "", event.target.href)
+        window.history.pushState({}, "", href)
 
         this.handle()
     }
@@ -20,8 +20,8 @@ export class Router {
 
         fetch(route)
         .then(data => data.text())
-        .then(html => {
+        .then(html => (
             document.querySelector('.app').innerHTML = html
-        })
+        ))
     }
 }
