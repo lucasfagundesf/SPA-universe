@@ -16,6 +16,12 @@
 body{
    font-family: var(--font);
    height: 100vh;
+
+   background-image: url(/image/mountains-universe-1.png);
+   background-size: cover;
+   background-position: left bottom;
+   background-repeat: no-repeat;
+   overflow-y: hidden;
 }
 .hide{
     display: none;
@@ -62,27 +68,6 @@ a:checked{
 .btn:hover{
     background-color: var(--color-btn);
     color: var(--color-hover);
-}
-.backHome{
-   background-image: url(/image/mountains-universe-1.png);
-   background-size: cover;
-   background-position: left bottom;
-   background-repeat: no-repeat;
-   overflow-y: hidden;
-}
-.backExplo{
-    background-image: url(/image/mountains-universe-3.png);
-    background-size: cover;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    overflow-y: hidden;
-}
-.backUni{
-   background-image: url(/image/mountains-universe02.png);
-   background-size: cover;
-   background-position: left bottom;
-   background-repeat: no-repeat;
-   overflow-y: hidden;
 }
 .inf{
     font-family: var(--font);

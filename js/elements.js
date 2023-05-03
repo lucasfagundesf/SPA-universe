@@ -1,5 +1,5 @@
-const bgHome = document.body.querySelector("#home");
-const bgUniverse = document.body.querySelector("#uni");
-const bgExplore = document.body.querySelector("#explo");
+const bgHome = document.body.querySelector("#linkInicio");
+const bgUniverse = document.body.querySelector("#linkUniverso");
+const bgExplore = document.body.querySelector("#linkExploracao");
 
 export { bgHome, bgUniverse, bgExplore};
