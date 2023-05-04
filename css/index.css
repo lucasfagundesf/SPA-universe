@@ -35,9 +35,6 @@ nav{
     gap: 5.2rem;
     z-index: 100;
 }
-nav a:nth-child(2){
-    color: var(--color-btn);
-}
 a{
     font-weight: 700;
     font-size: 2.4rem;
