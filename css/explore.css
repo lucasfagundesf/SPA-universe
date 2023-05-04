@@ -2,8 +2,11 @@
 
 body{
     background-image: url(/image/mountains-universe-3.png);
-    background-size: cover;
-    background-position: left bottom;
+    background-position: center;
     background-repeat: no-repeat;
-    overflow-y: hidden;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav a:nth-child(4){
+    color: var(--color-btn);
 }

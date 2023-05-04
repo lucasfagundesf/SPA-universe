@@ -18,19 +18,25 @@ body{
    height: 100vh;
 
    background-image: url(/image/mountains-universe-1.png);
-   background-size: cover;
-   background-position: left bottom;
-   background-repeat: no-repeat;
-   overflow-y: hidden;
+   background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 .hide{
     display: none;
 }
 nav{
-    margin: 4rem 7.2rem;
-    align-items: center;
     display: flex;
+    position: fixed;
+    top: 0;
+    margin: 4rem 7.2rem;
+    width: 100vw;
     gap: 5.2rem;
+    z-index: 100;
+}
+nav a:nth-child(2){
+    color: var(--color-btn);
 }
 a{
     font-weight: 700;
@@ -91,4 +97,27 @@ p{
     max-width: 64.8rem;
     font-size: 1.8rem;
     line-height: 2.9rem;
+}
+@media (max-width:700px) {
+.logo{
+    width: 3rem;
+    
+}
+nav{
+    
+    margin: 1.5rem;
+    gap: 2rem;
+}
+nav a{
+    display: flex;
+    align-items: center;
+    font-size: 1.6rem;
+}
+h1{
+    font-size: 3rem;
+}
+p{
+    font-size: 1.5rem;
+    width: 86%;
+}
 }
